@@ -1,5 +1,5 @@
 # clear .gitmodules file
-echo "" > .gitmodules
+> .gitmodules
 
 # delete existing submodules
 rm -rf ./optimized-elevator-action

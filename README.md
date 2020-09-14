@@ -1,11 +1,9 @@
 # chimezie-elevator-problem (cmdty coding challenge)
 
-## Note
-I am still actively working on this.
+**Note:** I am still actively working on this project.
 
-For full commit history, please email me <chris.chimezie@gmail.com>
-so that I can grant you access to the following private repos:
-* https://github.com/chimnz/optimized-elevator-action.git
-* https://github.com/chimnz/elevator-call-generator
+The two repositories that I created to keep track of my progress for
+part A and B, `optimized-elevator-action` and `elevator-call-generator`
+respectively have been added to this repo as submodules.
 
-Otherwise, you can keep track of my progress here.
+Please direct any and all questions to <chris.chimezie@gmail.com>.

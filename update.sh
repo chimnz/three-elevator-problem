@@ -1,19 +1,14 @@
-# delete existing submodules
-git rm --cached elevator-call-generator optimized-elevator-action
-
-# pull updates for optimized-elevator-action
+#  pull updates for optimized-elevator-action
 cd optimized-elevator-action
-git checkout master --quiet && git pull --quiet
+git checkout master --quiet && git pull
 cd ..
-echo 'updated "optimized-elevator-action"'
 
 # pull updates for elevator-call-generator
 cd elevator-call-generator
-git checkout master --quiet && git pull --quiet
+git checkout master --quiet && git pull
 cd ..
-echo 'updated "elevator-call-generator"'
 
 # log this run with commit
 git commit -a -m "chore: update submodules"
-git push --quiet
+git push
 echo "update complete!"

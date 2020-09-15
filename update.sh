@@ -1,3 +1,6 @@
+# delete existing submodules
+git rm --cached elevator-call-generator optimized-elevator-action
+
 # pull updates for optimized-elevator-action
 cd optimized-elevator-action
 git checkout master --quiet && git pull --quiet

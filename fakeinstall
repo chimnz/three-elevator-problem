@@ -1,0 +1,17 @@
+# create and cd into bin dir
+mkdir ./bin
+
+cd bin
+
+# create symbolic links to opelac and ecg in bin
+ln -s ../elevator-call-generator/ecg ./ecg
+ln -s ../optimized-elevator-action/opelac ./opelac
+
+# create symbolic links to config files in parent dir
+ln -s ../elevator-call-generator/calls.yml ../calls.yml
+ln -s ../optimized-elevator-action/system.yml ../system.yml
+
+# add bin to path
+export PATH=$PATH:$(pwd)
+
+cd ..

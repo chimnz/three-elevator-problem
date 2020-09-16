@@ -8,9 +8,11 @@ to clone this repo using:
 
 ## Directons
 To quickly get up and running, cd into the same directory as this README file,
-then run: `source fakeinstall`. This will create a `bin` directory with
-symbolic links to `ecg` and `opelac` in the current directory along with
-symbolic links to `calls.yml` and `system.yml`.
+then run: `source fakeinstall`. This will create a `bin` directory
+in the root of your local repository containing symbolic links to
+`ecg` and `opelac` while also adding symbolic links to
+`calls.yml` and `system.yml` to the repository root before finally
+adding `bin` to your `PATH`.
 
 Feel free to play around with the configuration options in
 `calls.yml` and `system.yml`.

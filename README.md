@@ -17,8 +17,13 @@ adding `bin` to your `PATH`.
 Feel free to play around with the configuration options in
 `calls.yml` and `system.yml`.
 
+## Dependencies
+*please install the following python modules using `pip install [module]` if you haven't already*
+* `numpy`
+* `yaml`
+
 ### Using `ecg` to randomly generate elevator calls time series
-*using config options set in `calls.yml`*
+*using default config options from `calls.yml`*
 
 **Print generated calls to stdout**
 
@@ -29,15 +34,15 @@ Feel free to play around with the configuration options in
 `ecg calls.yml > calls.txt`
 
 ### Using `opelac` to determine optimal elevator actions from calls time series
-*using config options set in `system.yml`*
+*using default config options from `elv.yml`*
 
 **Reading calls from piped output of `ecg`**
 
-`ecg calls.yml | opelac system.yml`
+`ecg calls.yml | opelac elv.yml`
 
 **Reading calls from file**
 
-`opelac system.yml < calls.txt`
+`opelac elv.yml < calls.txt`
 
 **Note:** I am still actively working on this problem.
 Please direct any and all questions to <chris.chimezie@gmail.com>.

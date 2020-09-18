@@ -12,7 +12,7 @@ please install the following python modules using `pip install [module]` if you 
 * `yaml`
 
 ## Directions
-To quickly get up and running, cd into the same directory as this README file,
+To quickly get up and running, `cd` into the same directory as this README file,
 then run: `source fakeinstall`. This will create a `bin` directory
 in the root of your local repository containing symbolic links to
 `ecg` and `opelac` before appending

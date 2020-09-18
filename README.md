@@ -7,7 +7,7 @@ to clone this repo using:
 `git clone https://github.com/chimnz/chimezie-elevator-problem.git --recursive`
 
 ## Dependencies
-please install the following python modules using `pip install [module]` if you haven't already
+Please install the following python modules using `pip install [module]` if you haven't already:
 * `numpy`
 * `yaml`
 

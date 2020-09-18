@@ -6,6 +6,11 @@ respectively have been added to this repo as submodules, so make sure
 to clone this repo using:
 `git clone https://github.com/chimnz/chimezie-elevator-problem.git --recursive`
 
+## Dependencies
+please install the following python modules using `pip install [module]` if you haven't already
+* `numpy`
+* `yaml`
+
 ## Directons
 To quickly get up and running, cd into the same directory as this README file,
 then run: `source fakeinstall`. This will create a `bin` directory
@@ -16,11 +21,6 @@ adding `bin` to your `PATH`.
 
 Feel free to play around with the configuration options in
 `calls.yml` and `system.yml`.
-
-## Dependencies
-please install the following python modules using `pip install [module]` if you haven't already
-* `numpy`
-* `yaml`
 
 ### Using `ecg` to randomly generate elevator calls time series
 *using default config options from `calls.yml`*
@@ -44,5 +44,4 @@ please install the following python modules using `pip install [module]` if you 
 
 `opelac elv.yml < calls.txt`
 
-**Note:** I am still actively working on this problem.
 Please direct any and all questions to <chris.chimezie@gmail.com>.

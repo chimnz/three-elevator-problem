@@ -9,7 +9,7 @@ to clone this repo using:
 ## Dependencies
 Please install the following python modules using `pip install [module]` if you haven't already:
 * `numpy`
-* `yaml`
+* `pyyaml`
 
 ## Directions
 To quickly get up and running, `cd` into the same directory as this README file,

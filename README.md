@@ -15,12 +15,14 @@ please install the following python modules using `pip install [module]` if you 
 To quickly get up and running, cd into the same directory as this README file,
 then run: `source fakeinstall`. This will create a `bin` directory
 in the root of your local repository containing symbolic links to
-`ecg` and `opelac` while also adding symbolic links to
-`calls.yml` and `system.yml` to the repository root before finally
-adding `bin` to your `PATH`.
+`ecg` and `opelac` before appending
+`bin` to your `PATH`.
+This will enable you to run `ecg` and `opelac` from any directory on your computer.
+Symbolic links to default config files `calls.yml` and `elv.yml` will
+also be added to the root of the repository.
 
 Feel free to play around with the configuration options in
-`calls.yml` and `system.yml`.
+`calls.yml` and `elv.yml`.
 
 ### Using `ecg` to randomly generate elevator calls time series
 *using default config options from `calls.yml`*

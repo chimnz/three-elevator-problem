@@ -10,5 +10,4 @@ cd ..
 
 # log this run with commit
 git commit -a -m "chore: update submodules"
-git push
-echo "update complete!"
+git push && echo "update complete!"

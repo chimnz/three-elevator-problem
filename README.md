@@ -4,7 +4,7 @@
 part A and B, `optimized-elevator-action` and `elevator-call-generator`
 respectively have been added to this repo as submodules, so make sure
 to clone this repo using:
-`git clone https://github.com/chimnz/chimezie-elevator-problem.git --recursive`
+`git clone https://github.com/chimnz/chimezie-elevator-problem.git --recursive`.
 
 ## Dependencies
 Please install the following python modules using `pip install [module]` if you haven't already:

@@ -18,7 +18,7 @@ Feel free to play around with the configuration options in
 `calls.yml` and `system.yml`.
 
 ## Dependencies
-*please install the following python modules using `pip install [module]` if you haven't already*
+please install the following python modules using `pip install [module]` if you haven't already
 * `numpy`
 * `yaml`
 

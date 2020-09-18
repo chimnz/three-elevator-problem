@@ -21,9 +21,6 @@ This will enable you to run `ecg` and `opelac` from any directory on your comput
 Symbolic links to default config files `calls.yml` and `elv.yml` will
 also be added to the root of the repository.
 
-Feel free to play around with the configuration options in
-`calls.yml` and `elv.yml`.
-
 ### Using `ecg` to randomly generate elevator calls time series
 *using default config options from `calls.yml`*
 
@@ -45,5 +42,7 @@ Feel free to play around with the configuration options in
 **Reading calls from file**
 
 `opelac elv.yml < calls.txt`
+
+Feel free to play around with the configuration options.
 
 Please direct any and all questions to <chris.chimezie@gmail.com>.

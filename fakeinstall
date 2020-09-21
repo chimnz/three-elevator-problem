@@ -8,8 +8,9 @@ ln -s ../elevator-call-generator/ecg ./ecg
 ln -s ../optimized-elevator-action/opelac ./opelac
 
 # create symbolic links to config files in parent dir
-ln -s ../elevator-call-generator/calls.yml ../calls.yml
-ln -s ../optimized-elevator-action/system.yml ../elv.yml
+mkdir ../config
+ln -s ../elevator-call-generator/calls.yml ../config/calls.yml
+ln -s ../optimized-elevator-action/elv.yml ../config/elv.yml
 
 # add bin to path
 export PATH=$PATH:$(pwd)

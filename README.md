@@ -1,4 +1,4 @@
-# chimezie-elevator-problem (CMDTY Coding Challenge)
+# three-elevator-problem
 
 **Note:** The two repositories that I created to keep track of my progress for
 part A and B, `optimized-elevator-action` and `elevator-call-generator`

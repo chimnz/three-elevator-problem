@@ -44,5 +44,3 @@ also be added to the root of the repository.
 `opelac elv.yml < calls.txt`
 
 Feel free to play around with the configuration options.
-
-Please direct any and all questions to <chris.chimezie@gmail.com>.
